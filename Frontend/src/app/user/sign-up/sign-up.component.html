@@ -1,6 +1,14 @@
-<link rel="stylesheet" href="sign-up.component.css">
+<style>
+  img {
+    max-width: 30%;
+    height: auto;
+  }
+</style>
+
 <div class="row center-align">
-  <img src="/assets/logo.png" style="max-width: 100%;">
+  <img src="/assets/logo.png">
+  <h3>Welcome <br>
+    Outdoor Cooking</h3>
 </div>
 
 <form class="col s12 white text-center" #userRegistrationForm="ngForm" (ngSubmit)="OnSubmit(userRegistrationForm)">

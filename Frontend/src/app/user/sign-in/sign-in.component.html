@@ -1,6 +1,8 @@
+<link rel="stylesheet" href="sign-in.component.css">
+
 <div class="container text-center">
   <img src="/assets/logo.png" class="rounded mx-auto d-block logo" alt="Responsive image" id="logo">
-  <h3>Outdoor Cooking</h3>
+  <h3>Welcome<br>Outdoor Cooking</h3>
   <div *ngIf="isLoginError" class="red-text center error-message card">
     <i class="material-icons">error</i> Incorrect username or password
   </div>
@@ -29,8 +31,31 @@
 </div>
 
 <style>
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin-top: 20px;
+  align-items:center;
+}
+
 .logo {
-  max-width: 200px;
+  max-width: 50%;
   margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
 }
 </style>
