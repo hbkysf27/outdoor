@@ -1,0 +1,28 @@
+.card-content {
+  /* background-color: rgb(255, 233, 233); */
+  background-color: rgb(217,254,229);
+
+}
+.col{
+  /* background-color: rgb(255, 255, 255); */
+  background-color:  rgb(134,191,153);
+
+}
+.tab.activate{
+    background-color: rgb(255, 233, 233);
+
+}
+.container{
+    margin-top: 10px;
+}
+img {
+
+    width: 500px;
+    height: 200px;
+    padding-left: 300px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
